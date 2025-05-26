@@ -1,0 +1,294 @@
+GTSRB CNN V12 - LR Restored Style Sonuçları
+=======================================================
+Görüntü Boyutu: 32x32
+Sınıf Sayısı: 43
+Model Type: CNN (Convolutional Neural Network)
+Architecture: Conv2D + BatchNorm + Dense layers
+Test Doğruluğu: 0.9751 (97.51%)
+Test Kaybı: 0.1092
+
+Sınıf Bazında Metrikler:
+------------------------------------------------------------
+Sınıf  0 (Speed limit (20km/h)):
+  Precision: 1.000
+  Recall: 0.967
+  F1-Score: 0.983
+  Support:   60
+
+Sınıf  1 (Speed limit (30km/h)):
+  Precision: 0.959
+  Recall: 0.985
+  F1-Score: 0.972
+  Support:  720
+
+Sınıf  2 (Speed limit (50km/h)):
+  Precision: 0.985
+  Recall: 0.996
+  F1-Score: 0.991
+  Support:  750
+
+Sınıf  3 (Speed limit (60km/h)):
+  Precision: 0.979
+  Recall: 0.951
+  F1-Score: 0.965
+  Support:  450
+
+Sınıf  4 (Speed limit (70km/h)):
+  Precision: 0.983
+  Recall: 0.983
+  F1-Score: 0.983
+  Support:  660
+
+Sınıf  5 (Speed limit (80km/h)):
+  Precision: 0.937
+  Recall: 0.986
+  F1-Score: 0.961
+  Support:  630
+
+Sınıf  6 (End of speed limit (80km/h)):
+  Precision: 0.993
+  Recall: 0.947
+  F1-Score: 0.969
+  Support:  150
+
+Sınıf  7 (Speed limit (100km/h)):
+  Precision: 0.991
+  Recall: 0.958
+  F1-Score: 0.974
+  Support:  450
+
+Sınıf  8 (Speed limit (120km/h)):
+  Precision: 0.967
+  Recall: 0.962
+  F1-Score: 0.964
+  Support:  450
+
+Sınıf  9 (No passing):
+  Precision: 0.968
+  Recall: 0.998
+  F1-Score: 0.983
+  Support:  480
+
+Sınıf 10 (No passing veh over 3.5 tons):
+  Precision: 0.988
+  Recall: 0.997
+  F1-Score: 0.992
+  Support:  660
+
+Sınıf 11 (Right-of-way at intersection):
+  Precision: 0.950
+  Recall: 0.990
+  F1-Score: 0.970
+  Support:  420
+
+Sınıf 12 (Priority road):
+  Precision: 1.000
+  Recall: 0.994
+  F1-Score: 0.997
+  Support:  690
+
+Sınıf 13 (Yield):
+  Precision: 0.996
+  Recall: 0.997
+  F1-Score: 0.997
+  Support:  720
+
+Sınıf 14 (Stop):
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Support:  270
+
+Sınıf 15 (No vehicles):
+  Precision: 0.995
+  Recall: 0.995
+  F1-Score: 0.995
+  Support:  210
+
+Sınıf 16 (Veh > 3.5 tons prohibited):
+  Precision: 0.993
+  Recall: 0.973
+  F1-Score: 0.983
+  Support:  150
+
+Sınıf 17 (No entry):
+  Precision: 1.000
+  Recall: 0.989
+  F1-Score: 0.994
+  Support:  360
+
+Sınıf 18 (General caution):
+  Precision: 0.981
+  Recall: 0.933
+  F1-Score: 0.957
+  Support:  390
+
+Sınıf 19 (Dangerous curve left):
+  Precision: 0.779
+  Recall: 1.000
+  F1-Score: 0.876
+  Support:   60
+
+Sınıf 20 (Dangerous curve right):
+  Precision: 0.742
+  Recall: 0.989
+  F1-Score: 0.848
+  Support:   90
+
+Sınıf 21 (Double curve):
+  Precision: 0.847
+  Recall: 0.922
+  F1-Score: 0.883
+  Support:   90
+
+Sınıf 22 (Bumpy road):
+  Precision: 0.975
+  Recall: 0.958
+  F1-Score: 0.966
+  Support:  120
+
+Sınıf 23 (Slippery road):
+  Precision: 0.957
+  Recall: 0.900
+  F1-Score: 0.928
+  Support:  150
+
+Sınıf 24 (Road narrows on the right):
+  Precision: 1.000
+  Recall: 0.978
+  F1-Score: 0.989
+  Support:   90
+
+Sınıf 25 (Road work):
+  Precision: 0.971
+  Recall: 0.967
+  F1-Score: 0.969
+  Support:  480
+
+Sınıf 26 (Traffic signals):
+  Precision: 0.987
+  Recall: 0.844
+  F1-Score: 0.910
+  Support:  180
+
+Sınıf 27 (Pedestrians):
+  Precision: 0.938
+  Recall: 0.500
+  F1-Score: 0.652
+  Support:   60
+
+Sınıf 28 (Children crossing):
+  Precision: 1.000
+  Recall: 0.987
+  F1-Score: 0.993
+  Support:  150
+
+Sınıf 29 (Bicycles crossing):
+  Precision: 0.989
+  Recall: 0.978
+  F1-Score: 0.983
+  Support:   90
+
+Sınıf 30 (Beware of ice/snow):
+  Precision: 0.942
+  Recall: 0.873
+  F1-Score: 0.907
+  Support:  150
+
+Sınıf 31 (Wild animals crossing):
+  Precision: 0.982
+  Recall: 0.993
+  F1-Score: 0.987
+  Support:  270
+
+Sınıf 32 (End speed + passing limits):
+  Precision: 0.923
+  Recall: 1.000
+  F1-Score: 0.960
+  Support:   60
+
+Sınıf 33 (Turn right ahead):
+  Precision: 0.995
+  Recall: 0.990
+  F1-Score: 0.993
+  Support:  210
+
+Sınıf 34 (Turn left ahead):
+  Precision: 0.992
+  Recall: 0.992
+  F1-Score: 0.992
+  Support:  120
+
+Sınıf 35 (Ahead only):
+  Precision: 0.995
+  Recall: 0.992
+  F1-Score: 0.994
+  Support:  390
+
+Sınıf 36 (Go straight or right):
+  Precision: 0.992
+  Recall: 0.975
+  F1-Score: 0.983
+  Support:  120
+
+Sınıf 37 (Go straight or left):
+  Precision: 0.967
+  Recall: 0.983
+  F1-Score: 0.975
+  Support:   60
+
+Sınıf 38 (Keep right):
+  Precision: 0.996
+  Recall: 0.993
+  F1-Score: 0.994
+  Support:  690
+
+Sınıf 39 (Keep left):
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Support:   90
+
+Sınıf 40 (Roundabout mandatory):
+  Precision: 0.957
+  Recall: 0.978
+  F1-Score: 0.967
+  Support:   90
+
+Sınıf 41 (End of no passing):
+  Precision: 0.862
+  Recall: 0.833
+  F1-Score: 0.847
+  Support:   60
+
+Sınıf 42 (End no passing veh > 3.5 tons):
+  Precision: 0.976
+  Recall: 0.911
+  F1-Score: 0.943
+  Support:   90
+
+
+Genel Metrikler:
+------------------------------
+Doğruluk: 0.9751
+Makro Ortalama Precision: 0.9634
+Makro Ortalama Recall: 0.9567
+Makro Ortalama F1-Score: 0.9574
+Ağırlıklı Ortalama Precision: 0.9762
+Ağırlıklı Ortalama Recall: 0.9751
+Ağırlıklı Ortalama F1-Score: 0.9749
+
+CNN V12 Model Detayları:
+-----------------------------------
+• Architecture: Simplified CNN (single Conv block)
+• Conv Layer: 16 filters, 3x3 kernel, ReLU activation
+• BatchNormalization: After each Conv2D
+• MaxPooling: 2x2 pool size
+• Dropout: 0.25 after Conv, 0.5 after Dense
+• Dense Layers: 512 → 256 → 43 (output)
+• Optimizer: Adam with learning_rate=0.001
+• Loss: categorical_crossentropy
+• Early Stopping: val_accuracy, patience=10
+• ReduceLROnPlateau: factor=0.2, patience=5
+• Output style: V4 LR Restored naming convention
+• Confusion Matrix: Percentage-based like CapsuleNet V4
